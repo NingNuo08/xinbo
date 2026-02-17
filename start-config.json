@@ -1,0 +1,30 @@
+{
+  "projectName": "心波",
+  "frontend": {
+    "name": "前端服务",
+    "relativePath": ".",
+    "startCommand": "npm run dev",
+    "port": 5173,
+    "url": "http://localhost:5173",
+    "startupTimeout": 30,
+    "requiredFiles": ["package.json", "vite.config.ts"]
+  },
+  "backend": {
+    "name": "后端服务",
+    "relativePath": "server",
+    "startCommand": "npm run start",
+    "port": 8080,
+    "url": "ws://localhost:8080",
+    "startupTimeout": 15,
+    "requiredFiles": ["package.json", "server.js"]
+  },
+  "browser": {
+    "autoOpen": true,
+    "url": "http://localhost:5173",
+    "delaySeconds": 5
+  },
+  "nodejs": {
+    "minimumVersion": "14.0.0",
+    "recommendedVersion": "18.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+export { useBluetoothHeartRate } from './useBluetoothHeartRate';
